@@ -23,18 +23,12 @@ public class Constants {
     public final static short SMSG_LOGIN = 212;
 
     // Lobby APIs:      x2x
-    public final static short CMSG_GETLOBBIES = 121;
-    public final static short SMSG_GETLOBBIES = 221;
-    public final static short CMSG_CREATELOBBY = 122;
-    public final static short SMSG_CREATELOBBY = 222;
-    public final static short CMSG_JOINLOBBY = 123;
-    public final static short SMSG_JOINLOBBY = 223;
-    public final static short CMSG_STARTGAME = 124;
-    public final static short SMSG_STARTGAME = 224;
-    public final static short CMSG_JOINGAME = 125;
-    public final static short SMSG_JOINGAME = 225;
-    public final static short CMSG_ENDGAME = 126;
-    public final static short SMSG_ENDGAME = 226;
+    public final static short CMSG_STARTGAME = 121;
+    public final static short SMSG_STARTGAME = 221;
+    public final static short CMSG_JOINGAME = 122;
+    public final static short SMSG_JOINGAME = 222;
+    public final static short CMSG_ENDGAME = 223;
+    public final static short SMSG_ENDGAME = 223;
 
     //Actions
     //Pickups:  x4x

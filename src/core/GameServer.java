@@ -256,7 +256,7 @@ public class GameServer {
      */
     public static void main(String[] args) {
         try {
-            Log.printf("World of Balance Server v%s is starting...\n", Constants.CLIENT_VERSION);
+            Log.printf("MFVR Server v%s is starting...\n", Constants.CLIENT_VERSION);
 
             gameServer = new GameServer();
             gameServer.run();

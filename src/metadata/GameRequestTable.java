@@ -28,9 +28,6 @@ public class GameRequestTable {
         add(Constants.CMSG_REGISTER, "RequestRegister");
         add(Constants.CMSG_LOGIN, "RequestLogin");
 
-        add(Constants.CMSG_GETLOBBIES, "RequestGetLobbies");
-        add(Constants.CMSG_CREATELOBBY, "RequestCreateLobby");
-        add(Constants.CMSG_JOINLOBBY, "RequestJoinLobby");
         add(Constants.CMSG_STARTGAME, "RequestStartGame");
         add(Constants.CMSG_JOINGAME, "RequestJoinGame");
 
