@@ -28,21 +28,13 @@ public class ResponseHeartbeat extends GameResponse {
         //A list of players that have an update
         Vector<User> usersWithUpdates = new Vector<>();
 
+        //Add the player's update
         for(User user : GameServer.getInstance().getActivePlayers()) {
-            if(user != this.user && GameServer.getInstance().getThreadByUserID(user.getID()).getLatestUpdateFromClient() != null)
-                usersWithUpdates.add(user);
+            packet.addBytes(GameServer.getInstance().getThreadByUserID(user.getID()).getLatestUpdateFromClient());
         }
 
         //Send the number of serverUpdates
         packet.addShort16((short)usersWithUpdates.size());
-
-        //Loop through all of the players with serverUpdates
-        for(User user : usersWithUpdates) {
-                //Add the character code
-                packet.addShort16(Constants.characters.get(user.getCharacter()).shortValue());
-                //Add the player's update
-                packet.addBytes(GameServer.getInstance().getThreadByUserID(user.getID()).getLatestUpdateFromClient());
-        }
 
         return packet.getBytes();
     }

@@ -1,11 +1,11 @@
 <component name="ArtifactManager">
-  <artifact name="FloodedGroundsServer:jar">
-    <output-path>$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar</output-path>
+  <artifact build-on-make="true" name="MFVR-Server">
+    <output-path>$PROJECT_DIR$/builds/artifacts/MFVR_Server</output-path>
     <root id="root">
-      <element id="archive" name="FloodedGroundsServer.jar">
+      <element id="library" level="project" name="lib" />
+      <element id="archive" name="application.jar">
         <element id="module-output" name="FloodedGroundsServer" />
       </element>
-      <element id="library" level="project" name="lib" />
       <element id="directory" name="conf">
         <element id="dir-copy" path="$PROJECT_DIR$/conf" />
       </element>

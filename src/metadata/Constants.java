@@ -49,26 +49,4 @@ public class Constants {
     public static final String CLIENT_VERSION = "1.00";
     public static final int TIMEOUT_SECONDS = 15;
     public static final int maxUpdateNumber = 10000;
-
-    //Characters
-    public final static HashMap<String, Integer> characters;
-
-    static {
-        characters = new HashMap<>();
-        characters.put("Bog_lord", 0);
-        characters.put("Girl", 1);
-        characters.put("Max", 2);
-        characters.put("Winston", 3);
-    }
-
-
-    // Inventory Items
-
-    // Guns:        1xx
-    // Grenades:    2xx
-
-
-
-    // Actions
-
 }

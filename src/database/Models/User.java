@@ -25,8 +25,6 @@ public class User {
     private int won;
     private int lost;
 
-    private String character;
-
     public User() {
     }
 
@@ -120,13 +118,5 @@ public class User {
 
     public void setLost(int lost) {
         this.lost = lost;
-    }
-
-    public String getCharacter() {
-        return this.character;
-    }
-
-    public void setCharacter(String character) {
-        this.character = character;
     }
 }

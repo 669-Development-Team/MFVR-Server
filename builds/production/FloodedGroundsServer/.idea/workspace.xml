@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="FloodedGroundsServer:jar2" />
+      <artifact name="MFVR-Server" />
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
@@ -10,15 +10,90 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4df59fed-18e9-44a0-adf2-2320067ede9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MFVR_Server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FloodedGroundsServer_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FloodedGroundsServer_jar2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/FloodedGroundsServer.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/activation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/axis.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/commons-dbcp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/commons-discovery-0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/commons-pool-1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/conf/db.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/conf/gameServer.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/gson-2.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/javax.wsdl_1.6.2.v201012040545.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/jaxrpc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/json_simple-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/mail.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/mysql-connector-java-5.1.22-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar/saaj.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/activation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/application.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/axis.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/commons-dbcp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/commons-discovery-0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/commons-pool-1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/conf/db.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/conf/gameServer.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/gson-2.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/javax.wsdl_1.6.2.v201012040545.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/jaxrpc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/json_simple-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/mail.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/mysql-connector-java-5.1.22-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar2/saaj.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/.idea/artifacts/FloodedGroundsServer_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/.idea/artifacts/FloodedGroundsServer_jar2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/core/GameClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/core/GameClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/META-INF/FloodedGroundsServer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/conf/db.conf" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/conf/db.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/conf/gameServer.conf" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/conf/gameServer.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/core/GameLobby.class" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/core/GameLobby.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/core/GameServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/core/GameServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/database/Models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/database/Models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/log/WoB_Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/log/WoB_Data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/metadata/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/metadata/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/metadata/GameRequestTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/metadata/GameRequestTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/request/Authentication/RequestLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/request/Authentication/RequestLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/request/Lobby/RequestCreateLobby.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/request/Lobby/RequestGetLobbies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/request/Lobby/RequestJoinGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/request/Lobby/RequestJoinGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/request/Lobby/RequestJoinLobby.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/request/RequestHit.class" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/request/RequestHit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/response/Lobby/ResponseCreateLobby.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/response/Lobby/ResponseGetLobbies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/response/Lobby/ResponseJoinGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/response/Lobby/ResponseJoinGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/response/Lobby/ResponseJoinLobby.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/response/ResponseHeartbeat.class" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/response/ResponseHeartbeat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/response/ResponseHit.class" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/networking/response/ResponseHit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/src/log/WoB_Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/builds/production/FloodedGroundsServer/src/log/WoB_Data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/GameLobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/GameLobby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/GameServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/GameServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/metadata/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metadata/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metadata/GameRequestTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metadata/GameRequestTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/request/Lobby/RequestCreateLobby.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/request/Lobby/RequestGetLobbies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/request/Lobby/RequestJoinGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/Lobby/RequestJoinGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/request/Lobby/RequestJoinLobby.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/networking/request/RequestHit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestHit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/response/Lobby/ResponseCreateLobby.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/response/Lobby/ResponseGetLobbies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/response/Lobby/ResponseJoinGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/response/Lobby/ResponseJoinGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/response/Lobby/ResponseJoinLobby.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/response/ResponseHeartbeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/response/ResponseHeartbeat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/networking/response/ResponseHit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/response/ResponseHit.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,10 +105,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/networking/request/RequestHeartbeat.java">
+        <entry file="file://$PROJECT_DIR$/src/core/GameClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="-3026">
+              <caret line="41" column="91" selection-start-line="41" selection-start-column="91" selection-end-line="41" selection-end-column="91" />
+              <folding>
+                <element signature="e#6675#6676#0" expanded="true" />
+                <element signature="e#6728#6729#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,8 +120,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/metadata/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+            <state relative-caret-position="204">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/networking/response/ResponseHeartbeat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/database/Models/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/networking/request/Lobby/RequestJoinGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/core/GameLobby.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/networking/response/Lobby/ResponseJoinGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -50,8 +180,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/networking/response/ResponsePickup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="357">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#191#192#0" expanded="true" />
@@ -61,11 +191,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/networking/request/RequestHit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            <state relative-caret-position="374">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +206,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/networking/response/ResponseHit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -120,6 +250,7 @@
       <find>new GameServer</find>
       <find>user.</find>
       <find>responsetable</find>
+      <find>character</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,10 +279,8 @@
         <option value="$PROJECT_DIR$/src/utility/GamePacket.java" />
         <option value="$PROJECT_DIR$/src/database/AccessObjects/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/networking/response/Authentication/ResponseRegister.java" />
-        <option value="$PROJECT_DIR$/src/database/Models/User.java" />
         <option value="$PROJECT_DIR$/src/database/AccessObjectImplementation/UserDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/networking/request/Authentication/RequestRegister.java" />
-        <option value="$PROJECT_DIR$/src/core/GameLobby.java" />
         <option value="$PROJECT_DIR$/src/database/Models/Lobby.java" />
         <option value="$PROJECT_DIR$/src/networking/request/Lobby/RequestStartGame.java" />
         <option value="$PROJECT_DIR$/src/networking/response/Lobby/ResponseCreateLobby.java" />
@@ -164,20 +293,23 @@
         <option value="$PROJECT_DIR$/src/model/Player.java" />
         <option value="$PROJECT_DIR$/src/networking/response/Lobby/ResponseJoinLobby.java" />
         <option value="$PROJECT_DIR$/src/networking/request/Lobby/RequestJoinLobby.java" />
-        <option value="$PROJECT_DIR$/src/networking/request/Lobby/RequestJoinGame.java" />
-        <option value="$PROJECT_DIR$/src/core/GameServer.java" />
         <option value="$PROJECT_DIR$/src/core/GameClient.java" />
         <option value="$PROJECT_DIR$/src/networking/request/Authentication/RequestPickup.java" />
-        <option value="$PROJECT_DIR$/src/networking/response/ResponseHeartbeat.java" />
         <option value="$PROJECT_DIR$/src/networking/request/RequestHeartbeat.java" />
         <option value="$PROJECT_DIR$/src/networking/response/ResponsePickup.java" />
         <option value="$PROJECT_DIR$/src/networking/request/RequestPickup.java" />
         <option value="$PROJECT_DIR$/src/networking/request/RequestKeepAlive.java" />
         <option value="$PROJECT_DIR$/src/networking/request/Authentication/RequestLogin.java" />
         <option value="$PROJECT_DIR$/src/metadata/GameRequestTable.java" />
-        <option value="$PROJECT_DIR$/src/metadata/Constants.java" />
+        <option value="$PROJECT_DIR$/src/core/GameServer.java" />
         <option value="$PROJECT_DIR$/src/networking/request/RequestHit.java" />
         <option value="$PROJECT_DIR$/src/networking/response/ResponseHit.java" />
+        <option value="$PROJECT_DIR$/src/metadata/Constants.java" />
+        <option value="$PROJECT_DIR$/src/networking/response/ResponseHeartbeat.java" />
+        <option value="$PROJECT_DIR$/src/database/Models/User.java" />
+        <option value="$PROJECT_DIR$/src/networking/response/Lobby/ResponseJoinGame.java" />
+        <option value="$PROJECT_DIR$/src/networking/request/Lobby/RequestJoinGame.java" />
+        <option value="$PROJECT_DIR$/src/core/GameLobby.java" />
       </list>
     </option>
   </component>
@@ -192,6 +324,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -283,61 +416,81 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="FloodedGroundsServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FloodedGroundsServer" type="462c0819:PsiDirectoryNode" />
+              <item name="MFVR-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MFVR-Server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FloodedGroundsServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FloodedGroundsServer" type="462c0819:PsiDirectoryNode" />
-              <item name="builds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FloodedGroundsServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FloodedGroundsServer" type="462c0819:PsiDirectoryNode" />
+              <item name="MFVR-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MFVR-Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FloodedGroundsServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FloodedGroundsServer" type="462c0819:PsiDirectoryNode" />
+              <item name="MFVR-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MFVR-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MFVR-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MFVR-Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FloodedGroundsServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FloodedGroundsServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FloodedGroundsServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FloodedGroundsServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="metadata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FloodedGroundsServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FloodedGroundsServer" type="462c0819:PsiDirectoryNode" />
+              <item name="MFVR-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MFVR-Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="networking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FloodedGroundsServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FloodedGroundsServer" type="462c0819:PsiDirectoryNode" />
+              <item name="MFVR-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MFVR-Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="networking" type="462c0819:PsiDirectoryNode" />
               <item name="request" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FloodedGroundsServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FloodedGroundsServer" type="462c0819:PsiDirectoryNode" />
+              <item name="MFVR-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MFVR-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="networking" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="Authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MFVR-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MFVR-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="networking" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="Lobby" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MFVR-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MFVR-Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="networking" type="462c0819:PsiDirectoryNode" />
               <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MFVR-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MFVR-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="networking" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+              <item name="Authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MFVR-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MFVR-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="networking" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+              <item name="Lobby" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,9 +501,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557873193278" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575702112460" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/conf" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2045977" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -419,17 +572,17 @@
       <workItem from="1557808253988" duration="10173000" />
       <workItem from="1557970071710" duration="3336000" />
       <workItem from="1557979121074" duration="728000" />
+      <workItem from="1575700256461" duration="1737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36075000" />
+    <option name="totallyTimeSpent" value="37812000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="28" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21149144" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -438,13 +591,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4932763" weight="0.34826428" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48777506" visible="true" weight="0.34042552" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48720682" visible="true" weight="0.34019503" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49388754" weight="0.39977604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49913794" weight="0.32914045" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5122249" side_tool="true" visible="true" weight="0.34042552" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5127932" side_tool="true" visible="true" weight="0.34019503" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49946696" weight="0.3281412" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4978678" weight="0.3281412" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -488,46 +641,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/database/Models/Match.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/Models/Player.java" />
-    <entry file="file://$PROJECT_DIR$/src/database/AccessObjects/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getUserByID#0;class#UserDAO#0" />
-            <element signature="docComment;method#validateUserCredentials#0;class#UserDAO#0" />
-            <element signature="docComment;method#createUser#0;class#UserDAO#0" />
-            <element signature="docComment;method#updateUser#0;class#UserDAO#0" />
-            <element signature="docComment;method#updateUserPassword#0;class#UserDAO#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/DCM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/ConnectionPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/database/GameDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -535,27 +648,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/networking/response/Lobby/ResponseGetLobbies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/networking/response/Lobby/ResponseEndGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/networking/response/Lobby/ResponseCreateLobby.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -622,26 +714,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/networking/response/Authentication/ResponseRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/io/InputStream.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/io/FilterInputStream.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/io/DataInputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/networking/response/Lobby/ResponseJoinGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/networking/request/Lobby/RequestStartGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -688,49 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/GameLobby.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/networking/request/Lobby/RequestJoinGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="31" column="71" lean-forward="true" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/Models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-871">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2748#2749#0" expanded="true" />
-            <element signature="e#2790#2791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/networking/request/RequestPushUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/networking/request/GameRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utility/GamePacket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -743,27 +775,6 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/DataInputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/core/GameServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2584">
-          <caret line="172" column="16" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
-          <folding>
-            <element signature="e#5626#5627#0" expanded="true" />
-            <element signature="e#5662#5663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/networking/request/Authentication/RequestRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="39" column="38" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/database/AccessObjectImplementation/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -784,27 +795,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/networking/response/ResponseHeartbeat.java">
+    <entry file="file://$PROJECT_DIR$/src/database/ConnectionPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/networking/request/RequestPickup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="850">
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/configuration/DBConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/configuration/GameServerConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/NetworkManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/GameServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#5626#5627#0" expanded="true" />
+            <element signature="e#5662#5663#0" expanded="true" />
+            <element signature="e#7000#7001#0" expanded="true" />
+            <element signature="e#7044#7045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/networking/request/Authentication/RequestLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="544">
           <caret line="54" column="70" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/networking/request/Authentication/RequestRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/metadata/GameRequestTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/networking/request/GameRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/networking/request/RequestHeartbeat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -818,49 +887,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/metadata/GameRequestTable.java">
+    <entry file="file://$PROJECT_DIR$/src/networking/request/RequestPickup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="329">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/GameClient.java">
+    <entry file="file://$PROJECT_DIR$/src/networking/request/RequestPushUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="217" column="43" selection-start-line="217" selection-start-column="43" selection-end-line="217" selection-end-column="43" />
-          <folding>
-            <element signature="e#6675#6676#0" expanded="true" />
-            <element signature="e#6728#6729#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/networking/response/Authentication/ResponseLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="238">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/networking/request/RequestHeartbeat.java">
+    <entry file="file://$PROJECT_DIR$/src/networking/response/Authentication/ResponseRegister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="340">
+          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/metadata/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/networking/response/Lobby/ResponseCreateLobby.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        <state relative-caret-position="357">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/networking/response/Lobby/ResponseGetLobbies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/networking/response/Lobby/ResponseEndGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/networking/response/Lobby/ResponseStartGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/networking/request/RequestHit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/networking/response/ResponseHit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/networking/response/ResponsePickup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="357">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#191#192#0" expanded="true" />
@@ -869,17 +978,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/networking/response/ResponseHit.java">
+    <entry file="file://$PROJECT_DIR$/src/core/GameClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="-3026">
+          <caret line="41" column="91" selection-start-line="41" selection-start-column="91" selection-end-line="41" selection-end-column="91" />
+          <folding>
+            <element signature="e#6675#6676#0" expanded="true" />
+            <element signature="e#6728#6729#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/networking/request/RequestHit.java">
+    <entry file="file://$PROJECT_DIR$/src/metadata/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="204">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/networking/response/Lobby/ResponseJoinGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/Models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/networking/response/ResponseHeartbeat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/networking/request/Lobby/RequestJoinGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/GameLobby.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -897,7 +1048,7 @@
               <type id="artifact" />
             </show-content>
           </artifact-editor>
-          <last-edited>FloodedGroundsServer:jar2</last-edited>
+          <last-edited>MFVR-Server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

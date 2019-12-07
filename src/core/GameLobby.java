@@ -16,7 +16,6 @@ public class GameLobby implements Runnable {
 
 
     private ArrayList<User> users;
-    private ArrayList<String> availableCharacters;
     private ArrayList<GameClient> clients;
     private boolean gameStarted;
 
@@ -39,7 +38,6 @@ public class GameLobby implements Runnable {
             Log.println(e.getMessage());
         }
         gameStarted = false;
-        availableCharacters = new ArrayList<>(Constants.characters.keySet());
         done = false;
     }
 
@@ -63,7 +61,6 @@ public class GameLobby implements Runnable {
             for(GameClient client : clients){
                 // todo: change user's wins and losses as well as games played
                 UserDAOImpl.getDao().updateUser(client.getUser());
-                removePlayer(client);
             }
 
             serverSocket.close();
@@ -79,13 +76,6 @@ public class GameLobby implements Runnable {
         this.serverSocket = serverSocket;
     }
 
-
-    public void removePlayer(GameClient client)
-    {
-        //Add the character a client was playing back when they disconnect
-        availableCharacters.add(client.getUser().getCharacter());
-    }
-
     /**
      * @param client
      */
@@ -95,10 +85,6 @@ public class GameLobby implements Runnable {
                 clients.add(client);
                 client.getClientSocket().bind(new InetSocketAddress(serverSocket.getLocalPort()));
                 lobby.addPlayer(client.getUserID());
-
-                // assign a random character to the player when adding to lobby
-                int randomIndex = new Random().nextInt(availableCharacters.size());
-                client.getUser().setCharacter(availableCharacters.get(randomIndex));
 
             } catch (IOException e) {
                 Log.println(e.getMessage());
