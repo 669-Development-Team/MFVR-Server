@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Class-Path: axis.jar mail.jar saaj.jar jaxrpc.jar activation.jar gson-
+ 2.2.2.jar json_simple-1.1.jar commons-dbcp-1.4.jar commons-pool-1.6.j
+ ar commons-discovery-0.5.jar commons-logging-1.1.1.jar javax.wsdl_1.6
+ .2.v201012040545.jar mysql-connector-java-5.1.22-bin.jar
+Main-Class: core.GameServer
+

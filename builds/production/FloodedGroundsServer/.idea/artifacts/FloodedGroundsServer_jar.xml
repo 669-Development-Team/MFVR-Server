@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="FloodedGroundsServer:jar">
+    <output-path>$PROJECT_DIR$/builds/artifacts/FloodedGroundsServer_jar</output-path>
+    <root id="root">
+      <element id="archive" name="FloodedGroundsServer.jar">
+        <element id="module-output" name="FloodedGroundsServer" />
+      </element>
+      <element id="library" level="project" name="lib" />
+      <element id="directory" name="conf">
+        <element id="dir-copy" path="$PROJECT_DIR$/conf" />
+      </element>
+    </root>
+  </artifact>
+</component>
