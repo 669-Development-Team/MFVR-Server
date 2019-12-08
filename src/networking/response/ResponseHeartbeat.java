@@ -30,7 +30,8 @@ public class ResponseHeartbeat extends GameResponse {
 
         //Add the player's update
         for(User user : GameServer.getInstance().getActivePlayers()) {
-            packet.addBytes(GameServer.getInstance().getThreadByUserID(user.getID()).getLatestUpdateFromClient());
+            if(user != this.user)
+                packet.addBytes(GameServer.getInstance().getThreadByUserID(user.getID()).getLatestUpdateFromClient());
         }
 
         //Send the number of serverUpdates
