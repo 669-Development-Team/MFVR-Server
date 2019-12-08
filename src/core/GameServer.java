@@ -40,7 +40,6 @@ public class GameServer {
     // Reference Tables
     private Map<String, GameClient> activeThreads = new HashMap<>(); // Session ID -> Client
     private Map<Long, User> activePlayers = new HashMap<>(); // Player ID -> Player
-    private Map<Long, GameLobby> lobbies = new HashMap<>(); // Lobby ID -> GameLobby
 
     /**
      * Create the GameServer by setting up the request types and creating a
@@ -160,17 +159,6 @@ public class GameServer {
      * @return
      */
     public ServerSocket getServerSocket(){ return this.serverSocket;}
-
-    /**
-     * Get the GameLobby bound to the Lobby ID provided, or null if the GameLobby doesn't exist
-     *
-     * @param ID ID of the Lobby to join
-     * @return The GameLobby bound to the ID, or null, if it doesn't exist
-     */
-    public GameLobby getGameLobbyByID(long ID){
-        return lobbies.get(ID);
-    }
-
 
     /**
      * Get the GameClient thread for the player using the player ID.
